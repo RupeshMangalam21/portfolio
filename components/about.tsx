@@ -65,8 +65,8 @@ export default function About() {
               growing proficiency in backend technologies like Docker, Redis, and SQLAlchemy.
             </motion.p>
             <motion.p variants={item} className="text-gray-700 dark:text-gray-300 mb-6">
-              Currently pursuing a Bachelor of Engineering in Computer Science at Chandigarh University (graduating July
-              2025), I'm passionate about building user-centric, scalable applications and eager to deepen my expertise
+              Recent Bachelor of Engineering Grad in Computer Science at Chandigarh University,
+              I'm passionate about building user-centric, scalable applications and eager to deepen my expertise
               in containerized environments and database management.
             </motion.p>
             <motion.p variants={item} className="text-gray-700 dark:text-gray-300 mb-6">
