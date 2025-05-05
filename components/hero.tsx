@@ -42,24 +42,27 @@ export default function Hero() {
             proficiency in backend technologies. Building user-centric, scalable applications.
           </motion.p>
           <motion.div variants={item} className="flex justify-center space-x-4 mb-8">
-            <Button asChild className="bg-teal-500 hover:bg-teal-600 text-white">
-              <Link href="#projects">View My Work</Link>
-            </Button>
-            <Button
-              asChild // Add this prop
-              variant="outline"
-              className="border-teal-500 text-teal-500 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-gray-800"
+          <Button asChild className="bg-teal-500 hover:bg-teal-600 text-white">
+            <Link href="#projects">View My Work</Link>
+          </Button>
+
+          <Button
+            asChild
+            variant="outline"
+            className="border-teal-500 text-teal-500 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-gray-800"
+          >
+            <a
+              href="/Rupesh_Mangalam_Resume.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <a
-                href="/Rupesh_Mangalam_Resume.pdf"
-                download="Rupesh_Mangalam_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FileDown className="mr-2 h-4 w-4" /> Resume
-              </a>
-            </Button>
-          </motion.div>
+              <FileDown className="mr-2 h-4 w-4" />
+              Resume
+            </a>
+          </Button>
+        </motion.div>
+
 
           {/* Centered arrow below content */}
           <motion.div
