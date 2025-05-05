@@ -51,7 +51,7 @@ export default function Hero() {
               className="border-teal-500 text-teal-500 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-gray-800"
             >
               <a
-                href="/resume.pdf" // Add your resume file here
+                href="/Rupesh_Mangalam_Resume.pdf"
                 download="Rupesh_Mangalam_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
