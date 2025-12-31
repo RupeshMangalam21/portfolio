@@ -52,7 +52,7 @@ export default function Hero() {
             className="border-teal-500 text-teal-500 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-gray-800"
           >
             <a
-              href="/Rupesh_Mangalam_Resume.pdf"
+              href="https://drive.google.com/uc?export=download&id=1ug7JHf8L965KxW4FPd9d3W45KJVRX8OV"
               download
               target="_blank"
               rel="noopener noreferrer"
